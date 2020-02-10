@@ -1,0 +1,46 @@
+{
+    "name": "ServiceNow_IoT_Application",
+    "version": "36.7.0",
+    "description": "ServiceNow_IoT_Application",
+    "main": "main.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": "",
+    "keywords": [
+        "node.js",
+        "eclipse",
+        "nodeclipse"
+    ],
+    "eslintConfig": {
+        "env": {
+            "es6": true,
+            "node": true,
+            "mocha": true,
+            "browser": true
+        }
+    },
+    "author": "ServiceNow",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "dependencies": {
+        "@octokit/rest": "^16.16.3",
+        "babel-eslint": "^10.0.1",
+        "chai": "^4.2.0",
+        "eslint": "^5.14.1",
+        "express": "^4.16.4",
+        "getmac": "^1.4.6",
+        "i2c-bus": "^4.0.9",
+        "mocha": "^6.1.4",
+        "oauth": "^0.9.15",
+        "oled-font-5x7": "^1.0.3",
+        "oled-i2c-bus": "^1.0.11",
+        "onoff": "^4.1.1",
+        "raspi-io": "^9.0.1",
+        "request": "^2.88.0",
+        "rpi-dht-sensor": "^0.1.1",
+        "rpi-ws281x-native": "^0.9.0",
+        "simple-git": "^1.107.0",
+        "sleep": "^6.0.0"
+    }
+}

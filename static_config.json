@@ -1,0 +1,52 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "constructor-super" : 2,
+        "default-case" : 2,
+        "for-direction" : 2,
+        "getter-return" : 2,
+        "indent" : 0,
+        "no-compare-neg-zero" : 1,
+        "no-cond-assign" : 1,
+        "no-console" : "off",
+        "no-const-assign" : 2,
+        "no-control-regex" : 1,
+        "no-debugger" : 2,
+        "no-dupe-args" : 2,
+        "no-dupe-class-members" : 1,
+        "no-dupe-keys" : 2,
+        "no-empty" : 1,
+        "no-empty-character-class" : 2,
+        "no-empty-function" : 2,
+        "no-empty-pattern": 2,
+        "no-extra-semi" : 1,
+        "no-ex-assign" : 2,
+        "no-fallthrough" : 1,
+        "no-global-assign" : 1,
+        "no-invalid-regexp" : 2,
+        "no-loop-func" : 1,
+        "no-redeclare" : 1,
+        "no-self-assign" : 2,
+        "no-sparse-arrays" : 2,
+        "no-this-before-super" : 2,
+        "no-undef" : 2,
+        "no-unreachable" : 1,
+        "no-unsafe-finally" : 1,
+        "no-unused-labels" : 1,
+        "no-unused-vars" : 1,
+        "quotes" : 0,
+        "semi" : 2,
+        "use-isnan" : 2,
+        "valid-typeof" : 1
+    }
+}
